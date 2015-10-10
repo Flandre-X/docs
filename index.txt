@@ -1,8 +1,8 @@
+.. _index:
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Pantsu.cat Developer Network
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-.. _pomf:
 
 .. toctree::
    :maxdepth: 2

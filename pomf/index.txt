@@ -1,3 +1,5 @@
+.. _pomf-index:
+
 %%%%
 Pomf
 %%%%
