@@ -7,7 +7,7 @@ Pomf
 .. toctree::
    :maxdepth: 2
 
-   quick-start
+   getting-started
    getting-help
    api
    contributing
