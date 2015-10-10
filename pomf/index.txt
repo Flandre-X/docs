@@ -11,4 +11,4 @@ Pomf
    getting-help
    api
    contributing
-   release-notes
+   release-notes/index
