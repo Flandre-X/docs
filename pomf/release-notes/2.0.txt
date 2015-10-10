@@ -1,0 +1,25 @@
+==========================
+Release notes for Pomf 2.0
+==========================
+
+Pomf 2.0 is in development.
+
+.. _2.0.0-release-notes:
+
+Pomf 2.0.0
+----------
+
+Added
+~~~~~
+
+Changed
+~~~~~~~
+
+Deprecated
+~~~~~~~~~~
+
+Removed
+~~~~~~~
+
+Fixed
+~~~~~

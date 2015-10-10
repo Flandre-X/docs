@@ -1,0 +1,9 @@
+Release notes
+=============
+
+.. _current-stable-release:
+
+.. toctree::
+   :maxdepth: 1
+
+   release-notes/2.0
