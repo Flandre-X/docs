@@ -1,6 +1,6 @@
-====
+%%%%
 Pomf
-====
+%%%%
 
 .. toctree::
    :maxdepth: 2
