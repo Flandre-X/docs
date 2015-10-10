@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Pantsu.cat'
-copyright = u'2015, Pantsu.cat Documentation Project'
-author = u'Pantsu.cat Documentation Project'
+copyright = u'2015 the Pantsu.cat developers'
+author = u'the Pantsu.cat developers'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
