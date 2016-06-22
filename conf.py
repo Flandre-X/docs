@@ -46,9 +46,11 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Pantsu.cat'
-copyright = u'2015 the Pantsu.cat developers'
-author = u'the Pantsu.cat developers'
+project = u'Pomf'
+# copyright = u'2015 the Pantsu.cat developers'
+author = u'Pomf and its contributors'
+title = 'Pomf Documentatiot'
+description = 'Documentation for the pomf simple file uploader'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -222,8 +224,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'Pantsucat.tex', u'Pantsu.cat Documentation',
-   u'Pantsu.cat Documentation Project', 'manual'),
+  (master_doc, 'Pomf.tex', title,
+   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pantsucat', u'Pantsu.cat Documentation',
+    (master_doc, project, description,
      [author], 1)
 ]
 
@@ -266,8 +268,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'Pantsucat', u'Pantsu.cat Documentation',
-   author, 'Pantsucat', 'One line description of project.',
+  (master_doc, project, description,
+   author, author, description,
    'Miscellaneous'),
 ]
 
