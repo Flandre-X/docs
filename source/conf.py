@@ -54,7 +54,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Pomf'
-copyright = u'2016, Pomf and its contributors'
+# need to do this properly
+copyright = u'Public Domain, No rights reserved'
 author = u'Pomf and its contributors'
 
 # The version info for the project you're documenting, acts as replacement for
