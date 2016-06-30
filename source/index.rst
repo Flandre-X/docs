@@ -20,6 +20,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+
    getting_started
    installation
    api
@@ -27,9 +28,6 @@ Contents:
    contributing
    changelog
    acknowledgements
-
-
-
 
 
 Indices and tables
