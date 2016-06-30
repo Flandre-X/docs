@@ -10,12 +10,15 @@ The recommended configuration of pomf consists of:
 * Lets encrypt
 
 Start by updating the system
+
 ::
+
 	sudo yum update
 
 Setup Nginx
 ---------
 ::
+
 	sudo nano /etc/yum.repos.d/nginx.repo
 	[nginx]
 	name=nginx repo
@@ -31,6 +34,7 @@ Setup Nginx
 Setup PHP
 ----------
 ::
+
 	sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 	sudo rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
@@ -44,6 +48,7 @@ Setup PHP
 Setup Mariadb
 --------------
 ::
+
 	sudo systemctl start mariadb
 	sudo mysql_secure_installation
 	sudo systemctl enable mariadb
@@ -58,6 +63,7 @@ Setup Mariadb
 Configure Pomf
 ----------------
 ::
+
 	git clone --recursive https://github.com/pomf/pomf
 	nano pomf/includes/settings.inc.php
 
