@@ -70,41 +70,47 @@ errorcode    error code
 decription   description of the error 
 ==========   ===========================================
 
-
-Output formats
---------------
-The Pantsu.cat API supports a number of different output formats.
-These have been implemented to serve different functions.
-
-==========   ===========================================
-Formats      Description    
-==========   ===========================================
-default      Default output is in json 
-text         Multiple plain/text links 
-html         HTML links 
-gyazo        Single plain/text link
-==========   ===========================================
-
-To make use of different output formats just append ?ouput=format to upload.php.
-
-Text response 
--------------
-::
-
-    curl -sS -F "files[]=@48_circles.gif" https://pantsu.cat/upload.php\?output\=text                                                                     ~
-    https://i.pantsu.cat/fdrcdu.gif
+## Upload API endpoint:
+/upload.php
 
 
-HTML response
--------------
-::
+## POST arguments:
+files[]: 
 
-    curl -sS -F "files[]=@48_circles.gif" https://pantsu.cat/upload.php\?output\=html                                                                 ~
-    <a href="https://i.pantsu.cat/mlmwnj.gif">https://i.pantsu.cat/mlmwnj.gif</a><br> 
+**Content-Type:** multipart/form-data
 
-Gyazo response 
---------------
-::
+File to upload; multiple values supported.
 
-    curl -sS -F "files[]=@48_circles.gif" https://pantsu.cat/upload.php\?output\=gyazo                                                                    ~
-    https://i.pantsu.cat/azfyrf.gif    
+
+## GET arguments:
+###	output:
+#### gyazo:
+**Content-Type:** text/plain
+
+Complete URLs to uploaded files in the same order as the input files, separated by newlines. Does not have a trailing newline (Pomf1 compat version).
+
+**Example output:**
+```txt
+'https://example.com/foobar.jpg\nhttps://example.com/qweasd.txt'
+```
+
+#### text:
+**Content-Type:** text/plain
+
+Complete URLs to uploaded files in the same order as input files. Each line ends in a newline (Unix style).
+
+**Example output:**
+```txt
+'https://example.com/foobar.jpg\nhttps://example.com/qweasd.txt\n'
+```
+Protip: if you include input names of uploaded files, how do you handle e.g. newlines in filenames?
+
+#### html:
+**Content-Type:** text/html
+
+A HTML page containing links to uploaded files. Can be anything and is primarily meant to be shown to a human user.
+
+**Example output:**
+```html
+'<a href="https://example.com/foobar.jpg">https://example.com/foobar.jpg</a><br /><a href="https://example.com/qweasd.txt">https://example.com/qweasd.txt</a><br />'
+```
