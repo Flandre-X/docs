@@ -16,12 +16,19 @@ Features
 * Supported by many file and screenshot uploading tools
 
 Contents:
+=========
 
 .. toctree::
    :maxdepth: 2
    getting_started
    installation
    api
+   alternatives
+   contributing
+   changelog
+   acknowledgements
+
+
 
 
 
