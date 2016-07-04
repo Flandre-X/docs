@@ -1,7 +1,8 @@
 Changelog
 ==========
 
-This page is severely out of date, and does not represent the current state of the Pomf code at all.
+.. attention::
+   This page in unmaintained, and has been for an extended period of time.  This page does not represent the current state of code at all.
 
 # Change Log
 
