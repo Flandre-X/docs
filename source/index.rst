@@ -26,7 +26,6 @@ Contents:
    api
    alternatives
    contributing
-   changelog
    acknowledgements
 
 
