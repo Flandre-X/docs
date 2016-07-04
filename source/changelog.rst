@@ -2,7 +2,8 @@ Changelog
 ==========
 
 .. attention::
-   This page in unmaintained, and has been for an extended period of time.  This page does not represent the current state of code at all.
+   This page in unmaintained, and has been for an extended period of time.
+   This page does not represent the current state of code at all.
 
 # Change Log
 
