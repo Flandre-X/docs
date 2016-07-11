@@ -4,10 +4,10 @@ Installation
 Pomf is very simple to setup.  Its main dependencies are a web server with PHP support, and a PDO-compatible database.
 
 The recommended configuration of pomf consists of:
-* Nginx
-* Mariadb
-* PHP-7
-* Lets encrypt
+* NGiNX
+* MariaDB
+* PHP7.0
+* Lets Encrypt
 
 Start by updating the system
 
