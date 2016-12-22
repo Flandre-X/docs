@@ -1,9 +1,10 @@
 Welcome to Pomf's documentation!
-================================
+##################################
 
-Pomf is a simple file sharing platform.  
+Pomf strives to be a modern and minimalistic file sharing platform, that is easy to install and use.
+Pomf is one of the most iconic and widely deployed platforms of its nature.
 
-It enjoys a complete API, wide deployment base, and support from numerous screenshot and file uploading tools.
+Pomf enjoys a vibrant and ethusastic community, providing extesive support for Pomf through numerous screenshot and file sharing tools.
 
 See https://try.pantsu.cat for a live example deployment.
 
@@ -22,7 +23,7 @@ Contents:
    :maxdepth: 2
 
    getting_started
-   installation
+   deployment
    api
    alternatives
    contributing
@@ -35,4 +36,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
