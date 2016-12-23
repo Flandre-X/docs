@@ -22,7 +22,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   getting_started
+   simple_deployment
    deployment
    api
    alternatives
