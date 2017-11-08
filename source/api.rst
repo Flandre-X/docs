@@ -40,7 +40,7 @@ success      true if uploading file was a success
 hash         SHA1 hash 
 name         Original file name 
 url          URL that the uploaded file can be found at
-size         File size 
+size         File size in bytes
 ==========   ===========================================
 
 Example request
